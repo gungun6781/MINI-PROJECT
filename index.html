@@ -1,0 +1,287 @@
+<!-- create a clean,modern low fidility mini project includes:login,registeration,dashboard,student profile,edit profile,course enrollment,attendance,marks and result,fees details,time table with classroom make highly professional mini project only -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINI PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#login">Login</a>
+        <a href="#register">Register</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#profile">Student Profile</a>
+        <a href="#edit-profile">Edit Profile</a>
+        <a href="#course-enrollment">Course Enrollment</a>
+        <a href="#attendance">Attendance</a>
+        <a href="#marks-result">Marks & Result</a>
+        <a href="#fees-details">Fees Details</a>
+        <a href="#time-table">Time Table</a>
+    </nav>
+        <section id="home" class="home">
+            <h2>HOME</h2>
+            <img src="college.jpeg" alt="college logo" class="logo">
+            <h1>Hey! welcome to my mini project</h1>
+            <p>Navigate through the sections using the menu above.</p>
+        </section>
+        <section id ="login" class="login">
+            <h2>LOGIN</h2>
+            <h1>Student Management System</h1>
+            <form>
+                <label>Email</label><br>
+                <input type="email"><br><br>
+                <label>Password</label><br>
+                <input type="password"><br><br>
+                <button>LOGIN</button><br><br>
+                <a href="#">Forgot Password?</a><br>
+                <p>New User? <a href="#">Register Here</a></p>
+            </form>
+        </section>
+        <section id="register" class="register">
+            <h2>REGISTER</h2>
+            <form>
+                <label>Full Name</label>
+                <input type="text">
+                <label>Email</label>
+                <input type="email">
+                <label>Mobile Number</label>
+                <input type="tel">
+                <label>Date of Birth</label>
+                <input type="date">
+                <label>Course</label>
+                <select>
+                    <option>Select Course</option>
+                    <option>B.Tech CSE</option>
+                    <option>BCA</option>
+                    <option>BBA</option>
+                </select>
+                <label>Password</label>
+                <input type="password">
+                <label>Confirm Password</label>
+                <input type="password">
+                <button>REGISTER</button>
+                <p>Already have an account?
+                    <a href="#login">Login</a>
+                </p>
+            </form>
+        </section>
+        <section id="dashboard" class="dashboard">
+            <h2>Dashboard</h2>
+            <div class="dashboard-box">
+                <div class="sidebar">
+                    <h3>Menu</h3>
+                    <a href="#">Profile</a>
+                    <a href="#">Courses</a>
+                    <a href="#">Attendance</a>
+                    <a href="#">Marks</a>
+                    <a href="#">Fees</a>
+                    <a href="#">Timetable</a>
+                    <a href="#">Logout</a>
+                </div>
+                <div class="content">
+                    <div class="cards">
+                        <div class="card">
+                            <h3>Courses</h3>
+                            <p>08</p>
+                        </div>
+                        <div class="card">
+                            <h3>Marks</h3>
+                            <p>97.9%</p>
+                        </div>
+                        <div class="card">
+                            <h3>Attendance</h3>
+                            <p>95%</p>
+                        </div>
+                    </div>
+                    <div class="notice">
+                        <h3>Recent Announcements</h3>
+                        <p>Assignment submission on Friday.</p>
+                    </div>
+                    <div class="notice">
+                        <h3>Upcoming Class</h3>
+                        <p>OOPS - Room TG-201</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="profile" class="profile">
+            <h2>Student Profile</h2>
+            <div class="profile-card">
+                <img src="photo.jpeg" class="profile-img">
+                <div>
+                    <p><b>Name:</b> GUNGUN </p><br>
+                    <p><b>Student ID:</b> 2510990874 </p><br>
+                    <p><b>Course:</b> B.Tech CSE </p><br>
+                    <p><b>Semester:</b> 3 </p><br>
+                    <p><b>Email:</b> gungun@email.com </p><br>
+                    <p><b>Phone:</b> +91 XXXXX XXXXX </p><br>
+                    <button>Edit Profile</button>
+                </div>
+            </div>
+        </section>
+        <section id="edit-profile" class="edit-profile">
+            <h2>Edit Profile</h2>
+            <form>
+                <label>Name</label>
+                <input type="text">
+                <label>Student ID</label>
+                <input type="text">
+                <label>Course</label>
+                <input type="text">
+                <label>Semester</label>
+                <input type="text">
+                <label>Email</label>
+                <input type="email">
+                <label>Phone</label>
+                <input type="text">
+                <button>Save Changes</button>
+            </form>
+        </section>
+        <section id="course-enrollment" class="course">
+            <h2>Course Enrollment</h2>
+            <div class="search-box">
+                <input type="text" placeholder="Search Course">
+                <button>Search</button>
+            </div>
+            <table>
+                <tr>
+                    <th>Course</th>
+                    <th>Faculty</th>
+                    <th>Duration</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>OOPS</td>
+                    <td>Dr. Pawan Agrahari</td>
+                    <td>3 Months</td>
+                    <td><button>Enroll</button></td>
+                </tr>
+                <tr>
+                    <td>DBMS</td>
+                    <td>Dr. Simran Saini</td>
+                    <td>6 Months</td>
+                    <td><button>Enroll</button></td>
+                </tr>
+            </table>
+        </section>
+        <section id="attendance" class="attendance">
+            <h2>Attendance</h2>
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Attendance</th>
+                </tr>
+                <tr>
+                    <td>Maths</td>
+                    <td>95%</td>
+                </tr>
+                <tr>
+                    <td>Programming</td>
+                    <td>90%</td>
+                </tr>
+                <tr>
+                    <td>Database</td>
+                    <td>93%</td>
+                </tr>
+            </table>
+        </section>
+        <section id="marks-result" class="marks">
+            <h2>Marks & Result</h2>
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td>Programming</td>
+                    <td>90</td>
+                    <td>O</td>
+                </tr>
+                <tr>
+                    <td>Database</td>
+                    <td>93</td>
+                    <td>O</td>
+                </tr>
+                <tr>
+                    <td>Maths</td>
+                    <td>95</td>
+                    <td>O</td>
+                </tr>
+            </table>
+            <button>Download Result</button>
+        </section>
+        <section id="fees-details" class="fees">
+            <h2>Fees Details</h2>
+            <table>
+                <tr>
+                    <th>Fee Type</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                </tr>
+                    <tr>
+                    <td>College Fee</td>
+                    <td>25000</td>
+                    <td>Paid</td>
+                </tr>
+                <tr>
+                    <td>Library Fee</td>
+                    <td>2000</td>
+                    <td>Pending</td>
+                </tr>
+                <tr>
+                    <td>Exam Fee</td>
+                    <td>3000</td>
+                    <td>Paid</td>
+                </tr>
+            </table>
+            <button>Pay Now</button>
+        </section>
+        <section id="time-table" class="timetable">
+            <h2>Weekly Timetable</h2>
+            <table>
+                <tr>
+                    <th>Time</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Classroom</th>
+                </tr>
+                <tr>
+                    <td>4:10-5:50</td>
+                    <td>FEE-II</td>
+                    <td>FEE-II</td>
+                    <td>DS</td>
+                    <td>FEE-II</td>
+                    <td>DS</td>
+                    <td>TG-201</td>
+                </tr>
+                <tr>
+                    <td>5:50-7:30</td>
+                    <td>OOPS</td>
+                    <td>OOPS</td>
+                    <td>OOPS</td>
+                    <td>OOPS</td>
+                    <td>OOPS</td>
+                    <td>TG-201</td>
+                </tr>
+                <tr>
+                    <td>7:50-9:20</td>
+                    <td>-</td>
+                    <td>DS</td>
+                    <td>-</td>
+                    <td>DBMS</td>
+                    <td>DBMS</td>
+                    <td>TG-201</td>
+                </tr>
+            </table>    
+        </section>
+    </main>
+</body>
+</html>
