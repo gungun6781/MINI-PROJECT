@@ -303,3 +303,29 @@ button{
 .search-box button:hover{
     background: #0056b3;
 }
+.course table tr:not(:first-child),
+.attendance table tr:not(:first-child),
+.marks table tr:not(:first-child),
+.fees table tr:not(:first-child),
+.timetable table tr:not(:first-child){
+    transition: 0.3s;
+}
+
+.course table tr:not(:first-child):hover,
+.attendance table tr:not(:first-child):hover,
+.marks table tr:not(:first-child):hover,
+.fees table tr:not(:first-child):hover,
+.timetable table tr:not(:first-child):hover{
+    background:#DBEAFE;
+    transform:scale(1.01);
+    cursor:pointer;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+.course table tr:first-child:hover,
+.attendance table tr:first-child:hover,
+.marks table tr:first-child:hover,
+.fees table tr:first-child:hover,
+.timetable table tr:first-child:hover{
+    background:#2563EB;
+}
